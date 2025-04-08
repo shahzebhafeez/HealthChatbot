@@ -3,3 +3,4 @@ langgraph>0.2.27
 langchain[groq]
 flask
 python-dotenv
+transformers
