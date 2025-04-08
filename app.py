@@ -80,7 +80,7 @@ def get_response_from_model(user_message):
         return ai_response
     except Exception as e:
         print("error in response from model:",e)
-        return f"error while getting response"
+        return f"error while getting response{e}"
 
 app = Flask(__name__)
 app.secret_key = "123xyzwasd" 
